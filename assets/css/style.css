@@ -8,7 +8,20 @@
 /** custom CSS */
 .tool-logo{
   object-fit: contain;
-  height: 150px;
+  height: 100px;
+  margin: 15px;
+}
+@media screen and (max-width: 992px) {
+  .tool-logo{
+    height: 75px;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 385px) {
+  .tool-logo{
+    height: 50px;
+    margin: 0;
+  }
 }
 .db-lg{
   min-width: 225px;
