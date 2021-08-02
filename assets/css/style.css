@@ -13,6 +13,20 @@
 .db-lg{
   min-width: 225px;
 }
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+ ::-webkit-scrollbar-track {
+   height: 40vh;
+   background-color: #0078ff54;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #0078ff;
+}
+.link-h{
+  height: 218.75px;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
